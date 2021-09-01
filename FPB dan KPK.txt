@@ -1,0 +1,26 @@
+Algoritma FPB
+Step 1 Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, kemabli ke step 2.
+Step 2 Bagi nilai m dengan n, masukkan nilai sisanya ke r.
+Step 3 Masukkan nilai n ke m dan nilai r ke n. Kembali ke Step 1.
+
+Pseudocode:
+While n ≠ 0 do
+r  ←  m mod n
+m  ←  n
+n  ←  r
+return m
+
+Algoritma KPK
+Step 1 bilangan 3 dan 4 ditambahkan dengan bilangan yang sama hingga kedua bilangan bertemu
+Step 2 Jika bilangan 3 atau n lebih kecil dari m maka akan ditambahkan 3
+
+Pseudocode:
+n = 3
+m = 4
+
+KPK = n * m
+FPB = m mod n
+m <-- n
+n <-- FPB
+
+KPK = KPK / FPB
